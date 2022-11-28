@@ -94,8 +94,17 @@ grade1 = gradejudge(rate1)
 
 #<UI표현하기>
 import streamlit as st
-primaryColor="white"
-textColor="white"
+#primaryColor="white"
+#textColor="white"
+st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             text-color : #FFFFFF
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
 
 st.write('# 현재 재생에너지 등급은...?')
 
