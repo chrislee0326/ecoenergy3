@@ -105,7 +105,7 @@ st.markdown(
          </style>
          """,
          unsafe_allow_html=True
-
+)
 st.write('# 현재 재생에너지 등급은...?')
 
 #<배경&이미지 출력하기>
